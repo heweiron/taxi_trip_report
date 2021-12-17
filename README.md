@@ -6,8 +6,8 @@ After clone the repository, please run following codes in your command:
 
 First time only
 
-`docker pull heweiron/my-jupyter`
+`docker pull heweiron/taxi-report`
 
-Then cd to the repo folder and run
+Then run to open the notebook
 
-`docker run --rm -p 4040:4040 -p 8888:8888 -v $(pwd):/home/jovyan/work heweiron/my-jupyter start-notebook.sh`
+`docker run -p 8888:8888 heweiron/taxi-report start-notebook.sh`
